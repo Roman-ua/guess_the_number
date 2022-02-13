@@ -38,6 +38,7 @@ function App() {
   return (
     <>
       <Layout>
+        <h1>Try to guess 4 numbers</h1>
         <div className={'form_wrapper'}>
           <Input valueHandler={setInputValue} value={inputValue} />
           <Button

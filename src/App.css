@@ -4,3 +4,7 @@
 .form_wrapper {
   display: flex;
 }
+h1 {
+  color: honeydew;
+  margin-bottom: 40px;
+}
