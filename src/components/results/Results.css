@@ -1,0 +1,16 @@
+.results_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.results_wrapper span {
+    padding: 20px;
+    background-color: honeydew;
+    border-radius: 50px;
+    line-height: 10px;
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+}

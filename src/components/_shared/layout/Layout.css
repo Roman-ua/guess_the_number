@@ -1,0 +1,15 @@
+.layout {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(
+            to bottom right,
+            #2C3E50, #FD746C,
+            #FF8235, #ffff1c,
+            #92FE9D, #00C9FF,
+            #a044ff, #e73827) no-repeat;
+    background-size: 1000% 1000%;
+}

@@ -1,0 +1,26 @@
+.common_button {
+    background-color: #002878;
+    background-image: linear-gradient(45deg, #33d9de 0%, #33d9de 55%, #243f81 90%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 48px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+    box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+    transition: all 0.5s ease;
+    border: none;
+    margin: 0 8px;
+}
+.common_button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+    background-position: 0 0;
+}
+.common_button:disabled {
+    background-color: gray;
+    background-image: linear-gradient(45deg, darkgrey 0%, gray 55%, darkgray 90%);
+}

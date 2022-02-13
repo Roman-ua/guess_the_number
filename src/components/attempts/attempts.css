@@ -1,0 +1,11 @@
+.attempts_wrapper {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.attempts_wrapper span {
+    font-size: 18px;
+    color: #e73827;
+    display: inline-block;
+    margin: 0 6px;
+}
