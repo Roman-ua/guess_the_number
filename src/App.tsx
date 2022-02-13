@@ -15,7 +15,6 @@ function App() {
   const [result, setResult] = useState(false)
   const {prevAttempt, currentNumber} = useTypedSelector((state)=>state.rootReducer)
   const dispatch = useDispatch()
-
   const matchResults = () => {
     if(currentNumber === inputValue){
       setResult(true)
@@ -30,7 +29,6 @@ function App() {
     dispatch(actionSetClearAttempt())
     setResult(false)
   }
-
   useEffect(()=>{
     if(!currentNumber) {
       dispatch(actionSetSetCurrentNumber(`${randomCharGenerator()}`))
