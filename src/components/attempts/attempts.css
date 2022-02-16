@@ -9,3 +9,7 @@
     display: inline-block;
     margin: 0 6px;
 }
+.correct {
+    color: white;
+    font-weight: bold;
+}

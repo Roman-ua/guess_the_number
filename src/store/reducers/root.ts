@@ -1,9 +1,10 @@
 import {actionInterface, rootReducerTypes} from "../types/rootReducerTypes";
 import {ACTION_TYPES} from "../../utils/constants";
+import {randomCharGenerator} from "../../utils/utilsCommon";
 
 const initialState: rootReducerTypes = {
   prevAttempt: [],
-  currentNumber: ''
+  currentNumber: `${randomCharGenerator()}`
 };
 
 export const rootReducer = (state = initialState, action: actionInterface) => {
@@ -16,7 +17,8 @@ export const rootReducer = (state = initialState, action: actionInterface) => {
     case ACTION_TYPES.CLEAR_ATTEMPT:
       return {
         ...state,
-        prevAttempt: []
+        prevAttempt: [],
+        currentNumber: `${randomCharGenerator()}`
       };
     case ACTION_TYPES.SET_CURRENT_NUMBER:
       return {
